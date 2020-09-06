@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheWorldBankCountries", "TheWorldBankCountries\TheWorldBankCountries.csproj", "{BFE7DF38-9E68-4B5E-A7DE-8C414A6EA794}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TWBCNUnitTests", "TWBCNUnitTests\TWBCNUnitTests.csproj", "{16C330C2-ADCC-40E4-B0AE-E37183718B06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFE7DF38-9E68-4B5E-A7DE-8C414A6EA794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE7DF38-9E68-4B5E-A7DE-8C414A6EA794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE7DF38-9E68-4B5E-A7DE-8C414A6EA794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE7DF38-9E68-4B5E-A7DE-8C414A6EA794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C330C2-ADCC-40E4-B0AE-E37183718B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C330C2-ADCC-40E4-B0AE-E37183718B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C330C2-ADCC-40E4-B0AE-E37183718B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C330C2-ADCC-40E4-B0AE-E37183718B06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BEEB93F-756D-4D13-96C1-CC851DB2DA7A}
+	EndGlobalSection
+EndGlobal
