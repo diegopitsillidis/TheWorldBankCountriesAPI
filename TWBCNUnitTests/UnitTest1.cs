@@ -23,7 +23,7 @@ namespace Tests
                 latitude = "51.5002"
             };
 
-            //for some reason if I dont serialize objects before comparing the test will failt, there is probably a better way of doing this
+            //for some reason if I dont serialize objects before comparing the test will fail, there is probably a better way of doing this
             var excpectedResultJson = JsonConvert.SerializeObject(excpectedResult);
             var resultJson = JsonConvert.SerializeObject(result);
             Assert.AreEqual(excpectedResultJson, resultJson);

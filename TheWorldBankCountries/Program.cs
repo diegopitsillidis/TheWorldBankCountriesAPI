@@ -119,11 +119,11 @@ namespace TheWorldBankCountries
             //    Console.WriteLine("You must enter a Value");
             //}
 
-            //---works but only for page 1 and probably not the best way to do it---
+            //---works but only for page 1 and probably not the best way to do it-- -
             //string URL = "http://api.worldbank.org/v2/country";
             //XNamespace wb = "http://www.worldbank.org";
             //XDocument doc = XDocument.Load(URL);
-            //Country.countries = doc.Descendants(wb +  "country").Select(x => new Country()
+            //Country.countries = doc.Descendants(wb + "country").Select(x => new Country()
             //{
             //    iso2Code = (string)x.Element(wb + "iso2Code"),
             //    name = (string)x.Element(wb + "name"),
